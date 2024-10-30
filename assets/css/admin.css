@@ -1,0 +1,53 @@
+#adminmenu li#toplevel_page_indot-under-settings .wp-menu-image{
+	background: transparent url('../img/under-menuicon-56px.png') no-repeat 0 0;
+	overflow: hidden;
+}
+
+#adminmenu li#toplevel_page_indot-under-settings:hover .wp-menu-image,
+#adminmenu li#toplevel_page_indot-under-settings.current .wp-menu-image,
+#adminmenu li#toplevel_page_indot-under-settings.wp-has-current-submenu .wp-menu-image{
+	background-position: -28px 0;
+}
+
+#icon-indot-under-settings {
+	background-image: url('../img/under-pageicon-32px.png');
+	background-repeat: no-repeat;
+}
+
+@media print,
+	(-o-min-device-pixel-ratio: 5/4),
+	(-webkit-min-device-pixel-ratio: 1.25),
+	(min-resolution: 120dpi) {
+		
+		#icon-indot-under-settings {
+			background-image: url('../img/under-pageicon-64px.png');
+			background-size: 32px 32px;
+		}
+
+		#adminmenu li#toplevel_page_indot-under-settings .wp-menu-image {
+			background-image: url('../img/under-menuicon-112px.png');
+			background-size: 56px 28px;
+		}
+	}
+
+
+#firstContainer {
+	float: left;
+	margin-right: 2%;
+	width:75%;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+#secondContainer {
+	float: left;
+	width:23%;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+#secondContainer div{
+	margin-bottom: 2%;
+}
